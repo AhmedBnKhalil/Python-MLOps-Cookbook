@@ -122,3 +122,4 @@ def predict(weight):
     }
     logging.debug(f"Prediction: {predict_log_data}")
     return payload
+
