@@ -55,3 +55,4 @@ def test_index(app, client):
     assert res.status_code == 200
     expected = "Predict the Height From Weight of MLB Players"
     assert expected in res.get_data(as_text=True)
+    
